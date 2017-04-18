@@ -1,7 +1,10 @@
-# test coverage for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports)
+# npmtest-babel-plugin-add-module-exports
+
+#### test coverage for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports)
+
 #### Fix babel/babel#2212
 
-[![NPM](https://nodei.co/npm/babel-plugin-add-module-exports.png?downloads=true)](https://www.npmjs.com/package/babel-plugin-add-module-exports)
+[![NPM](https://nodei.co/npm/babel-plugin-add-module-exports.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/babel-plugin-add-module-exports)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-babel-plugin-add-module-exports/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-add-module-exports/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-babel-plugin-add-module-exports%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-babel-plugin-add-module-exports%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.html](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/screenCapture.npmPackageListing.svg)
 
@@ -35,7 +44,6 @@
     },
     "author": {
         "name": "59naga",
-        "email": "i59naga@icloud.com",
         "url": "http://berabou.me"
     },
     "bugs": {
@@ -80,12 +88,10 @@
     "main": "lib",
     "maintainers": [
         {
-            "name": "59naga",
-            "email": "i59naga@icloud.com"
+            "name": "59naga"
         },
         {
-            "name": "lijunle",
-            "email": "lijunle@gmail.com"
+            "name": "lijunle"
         }
     ],
     "name": "babel-plugin-add-module-exports",
@@ -95,7 +101,6 @@
         ]
     },
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/59naga/babel-plugin-add-module-exports.git"
