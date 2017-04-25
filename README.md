@@ -1,6 +1,6 @@
 # npmtest-babel-plugin-add-module-exports
 
-#### test coverage for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports)
+#### basic test coverage for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-add-module-exports)
 
 #### Fix babel/babel#2212
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-add-module-exports/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-add-module-exports/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-plugin-add-module-exports/build/coverage.html/index.html)
 
@@ -125,7 +125,8 @@
         "watch:src": "babel src --out-dir lib --watch",
         "watch:test": "babel test --out-dir spec --ignore test/spec.js --watch"
     },
-    "version": "0.2.1"
+    "version": "0.2.1",
+    "bin": {}
 }
 ```
 
